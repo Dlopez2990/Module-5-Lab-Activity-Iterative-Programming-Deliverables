@@ -6,8 +6,6 @@ for num in numbers:
     print(num)
 
 Write a loop that prints each number and its square on a new line.
-#Daniel L
-#8/1/23
 #Problem 2 Part B - Prints each number and its square on a new line
 # Loop to print each number and its square on a new line
 for num in numbers:
