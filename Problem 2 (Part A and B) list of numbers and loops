@@ -1,0 +1,16 @@
+Write a loop that prints each of the numbers on a new line.
+#Daniel L
+#8/1/23
+# Problem 2 - Printing Numbers and Their Squares
+# Loop to print each number on a new line
+numbers = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+for num in numbers:
+    print(num)
+
+Write a loop that prints each number and its square on a new line.
+#Daniel L
+#8/1/23
+#Problem 2 Part B - Prints each number and its square on a new line
+# Loop to print each number and its square on a new line
+for num in numbers:
+    print(num, ":", num**2)
