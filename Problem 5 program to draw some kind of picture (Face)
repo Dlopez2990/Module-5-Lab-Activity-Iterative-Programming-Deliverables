@@ -1,0 +1,40 @@
+# Program to draw some kind of picture
+smile = turtle.Turtle()
+smile.speed(2)  # Adjust the drawing speed (1=slowest, 10=fastest)
+
+# Function to draw an eye
+def draw_eye(x, y):
+    smile.penup()
+    smile.goto(x, y)
+    smile.pendown()
+    smile.dot(25)
+
+# Draw the face
+smile.fillcolor("yellow")
+smile.begin_fill()
+smile.circle(100)
+smile.end_fill()
+
+# Draw the eyes
+smile.penup()
+smile.goto(-35, 130)
+smile.pendown()
+draw_eye(-35, 130)
+
+smile.penup()
+smile.goto(35, 130)
+smile.pendown()
+draw_eye(35, 130)
+
+# Draw the smile
+smile.penup()
+smile.goto(-60, 70)
+smile.pendown()
+smile.right(90)
+smile.circle(60, 120)
+
+# Hide the turtle
+smile.hideturtle()
+
+# Keep the window open until manually closed
+turtle.done()
