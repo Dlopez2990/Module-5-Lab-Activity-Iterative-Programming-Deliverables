@@ -1,6 +1,4 @@
 Write a loop that prints each of the numbers on a new line.
-#Daniel L
-#8/1/23
 # Problem 2 - Printing Numbers and Their Squares
 # Loop to print each number on a new line
 numbers = [12, 10, 32, 3, 66, 17, 42, 99, 20]
