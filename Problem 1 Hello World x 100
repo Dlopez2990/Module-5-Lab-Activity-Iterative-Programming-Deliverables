@@ -1,0 +1,7 @@
+#Daniel L
+#8/1/23
+# Problem 1 - Hello World Loop x 100
+# This program prints "Hello World" to the screen 100 times.
+
+for i in range(100):
+    print("Hello World")
