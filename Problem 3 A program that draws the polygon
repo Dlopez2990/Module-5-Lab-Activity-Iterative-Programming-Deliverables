@@ -1,0 +1,19 @@
+# Problem 3 - Draw a Regular Polygon with User Inputs
+import turtle
+# Function to draw a regular polygon
+def draw_polygon(sides, length, line_color, fill_color):
+    turtle.color(line_color)
+    turtle.fillcolor(fill_color)
+    turtle.begin_fill()
+    for _ in range(sides):
+        turtle.forward(length)
+        turtle.left(360 / sides)
+    turtle.end_fill()
+# Get user inputs
+num_sides = int(input("Enter the number of sides: "))
+side_length = int(input("Enter the length of each side: "))
+line_color = input("Enter the line color: ")
+fill_color = input("Enter the fill color: ")
+# Draw the polygon
+draw_polygon(num_sides, side_length, line_color, fill_color)
+turtle.done()
